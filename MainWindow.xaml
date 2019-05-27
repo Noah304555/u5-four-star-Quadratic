@@ -1,0 +1,16 @@
+﻿<Window x:Class="_304555Quadratic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_304555Quadratic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas x:Name="myCanvas">
+        <Label x:Name="lbltitle" Content="Enter an equation for a parabola in standard form ex.(ax2 + bx +c = 0)" Canvas.Left="10" Height="69" Width="525" FontSize="16"/>
+        <TextBox x:Name="txtStatement" Text="ax2 + bx + c = 0" Canvas.Top="74" Canvas.Left="10" Height="83" Width="261" FontSize="25"/>
+        <Button x:Name="Calculate" Content="Calculate" Click="Calculate_Click" Canvas.Top="157" Width="525" Canvas.Left="10" Height="75" FontSize="25"/>
+        <Label x:Name="lblOutput" Canvas.Left="38" Canvas.Top="562" RenderTransformOrigin="1.7,11.5" Height="24" Width="497"/>
+        <Label Content="Legend: each square is equal to 2" x:Name="lblLegend" Visibility="Hidden"/>
+    </Canvas>
+</Window>
