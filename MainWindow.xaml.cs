@@ -1,4 +1,8 @@
-﻿using System;
+/* Noah Irving
+5/27/2019
+A program that draws a parabola on a graph
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
